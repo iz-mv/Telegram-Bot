@@ -1,0 +1,6 @@
+beautifulsoup4==4.11.1
+pyowm==2.10.0
+pyTelegramBotAPI==3.6.6
+requests==2.25.1
+SQLite3Database==0.2.0
+wikipedia==1.4.0
