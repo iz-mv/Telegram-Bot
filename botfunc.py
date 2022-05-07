@@ -10,9 +10,9 @@ con = sqlite3.connect("jokedb.db")
 
 wikipedia.set_lang("ru")
 
-owm = pyowm.OWM('4ca0ed50f846cf4d08ac7097a89b9ff3', language='ru')
+owm = pyowm.OWM('Ваш Токен OpenWeatherMap', language='ru')
 
-bot = telebot.TeleBot('5146513386:AAHXpSJfhjTj5dIYeef_yW-pdAr02LJaKv8')
+bot = telebot.TeleBot('Ваш Токен Телеграм Бота')
 
 
 def getwiki(s):
